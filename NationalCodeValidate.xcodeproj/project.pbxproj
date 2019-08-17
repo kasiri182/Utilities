@@ -14,6 +14,7 @@
 		3C5631682307CB520052BCC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5631662307CB520052BCC0 /* LaunchScreen.storyboard */; };
 		3C5631732307CB520052BCC0 /* NationalCodeValidateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5631722307CB520052BCC0 /* NationalCodeValidateTests.swift */; };
 		3C56317E2307CB530052BCC0 /* NationalCodeValidateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C56317D2307CB530052BCC0 /* NationalCodeValidateUITests.swift */; };
+		3C56318C2307CC430052BCC0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C56318B2307CC430052BCC0 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C5631792307CB530052BCC0 /* NationalCodeValidateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NationalCodeValidateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C56317D2307CB530052BCC0 /* NationalCodeValidateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalCodeValidateUITests.swift; sourceTree = "<group>"; };
 		3C56317F2307CB530052BCC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C56318B2307CC430052BCC0 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3C56315D2307CB510052BCC0 /* AppDelegate.swift */,
 				3C56315F2307CB510052BCC0 /* ViewController.swift */,
+				3C56318B2307CC430052BCC0 /* Utilities.swift */,
 				3C5631612307CB510052BCC0 /* Main.storyboard */,
 				3C5631642307CB520052BCC0 /* Assets.xcassets */,
 				3C5631662307CB520052BCC0 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C56318C2307CC430052BCC0 /* Utilities.swift in Sources */,
 				3C5631602307CB510052BCC0 /* ViewController.swift in Sources */,
 				3C56315E2307CB510052BCC0 /* AppDelegate.swift in Sources */,
 			);
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72RTHSH39V;
 				INFOPLIST_FILE = NationalCodeValidate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72RTHSH39V;
 				INFOPLIST_FILE = NationalCodeValidate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
